@@ -5,7 +5,8 @@ function firstNonRepeatedChar(str) {
 	for(let i = 0; i < str.length; i++) //Iterate over the string and populate the object with character frequencies:
 	{
 	    let char = str[i];
-	    if(charCount[char]) {
+	    if(charCount[char])  // checks whether key named "char" exists in the hashmap
+		{
 	        charCount[char]++;
 	    } else {
 	        charCount[char] = 1;
@@ -40,5 +41,5 @@ function firstNonRepeatedChar(str) {
 }
 // let input = "aabbcc"
 // firstNonRepeatedChar(input);
-const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+// const input = prompt("Enter a string");
+// alert(firstNonRepeatedChar(input)); 
