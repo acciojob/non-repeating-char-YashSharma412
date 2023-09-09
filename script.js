@@ -41,5 +41,5 @@ function firstNonRepeatedChar(str) {
 }
 // let input = "aabbcc"
 // firstNonRepeatedChar(input);
-// const input = prompt("Enter a string");
-// alert(firstNonRepeatedChar(input)); 
+const input = prompt("Enter a string");
+alert(firstNonRepeatedChar(input)); 
